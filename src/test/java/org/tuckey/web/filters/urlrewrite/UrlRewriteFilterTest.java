@@ -30,6 +30,8 @@
  * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
+ *
+ * Modified by Atlassian: testVersion accepts the -atlassian-N version suffix.
  * ====================================================================
  */
 package org.tuckey.web.filters.urlrewrite;
@@ -68,7 +70,7 @@ public class UrlRewriteFilterTest extends TestCase {
     public void testVersion() throws ServletException {
         String ver = UrlRewriteFilter.getFullVersionString();
         System.out.println(ver);
-        assertTrue("Ver bad " + ver, ver.matches("[0-9]+\\.[0-9]+\\.[0-9]+(-SNAPSHOT)? build [0-9a-z]+"));
+        assertTrue("Ver bad " + ver, ver.matches("[0-9]+\\.[0-9]+\\.[0-9]+(-atlassian-[0-9]+)?(-SNAPSHOT)? build [0-9a-z]+"));
     }
 
     public void testInitContext() throws ServletException {
