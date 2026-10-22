@@ -1,3 +1,12 @@
+# Atlassian fork of UrlRewriteFilter
+
+Fork of [paultuckey/urlrewritefilter](https://github.com/paultuckey/urlrewritefilter), based on upstream tag
+[`urlrewritefilter-5.1.3`](https://github.com/paultuckey/urlrewritefilter/tree/urlrewritefilter-5.1.3).
+
+Keep the diff from upstream minimal.
+
+---
+
 
 # UrlRewriteFilter
 
