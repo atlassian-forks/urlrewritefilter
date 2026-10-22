@@ -4,7 +4,7 @@
     <groupId>org.tuckey</groupId>
     <artifactId>urlrewritefilter</artifactId>
     <packaging>jar</packaging>
-    <version>5.1.3-atlassian-1-455d886</version>
+    <version>5.1.3-atlassian-1-SNAPSHOT</version>
     <name>UrlRewriteFilter</name>
     <url>http://www.tuckey.org/urlrewrite/</url>
     <inceptionYear>2001</inceptionYear>
@@ -41,7 +41,7 @@
         <url>https://github.com/atlassian-forks/urlrewritefilter</url>
         <connection>scm:git:https://github.com/atlassian-forks/urlrewritefilter.git</connection>
         <developerConnection>scm:git:git@github.com:atlassian-forks/urlrewritefilter.git</developerConnection>
-        <tag>urlrewritefilter-5.1.3-atlassian-1-455d886</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
